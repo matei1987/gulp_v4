@@ -27,9 +27,9 @@ var dir = args.dir || 'projectName';
 
 //Sftp set up
 var dest = {
-	host:'mateig.com',
-	user:'matei',
-	pass:'ghe0rghiu',
+	host:'hostname',
+	user:'username',
+	pass:'password',
 	remotePath:'/var/www/html/'+dir+'',
 	port: 22 }
 //File sources for down the pipe 
